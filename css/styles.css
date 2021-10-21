@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    /* font family */
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.main h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.mensaje {
+    border-radius: 3px;
+    border: 1px solid #000000;
+    width: 600px;
+    padding: 0.4%;
+    font-size: 13px;
+}
+
+.boton {
+    background-color: rgba(81, 211, 243, 0.788);
+    border: 2px solid rgba(81, 211, 243, 0.788);
+    border-radius: 3px;
+    padding: 0.4%;
+    width: 600px;
+    font-size: 13px;
+}
