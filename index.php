@@ -18,7 +18,7 @@
             <h2>Problema 197</h2>
         </div>
         <form action="operacion.php" method="post">
-        <input type="number" name="string" id="num" placeholder="Introduce el texto" class="mensaje">
+        <input type="string" name="mensaje" id="mensaje" placeholder="Introduce el texto" class="mensaje">
             <br></br>
             <input type="submit" class="boton" value="Enviar">
         </form>
